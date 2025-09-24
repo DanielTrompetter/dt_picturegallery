@@ -15,10 +15,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
   @override
   void initState() {
     super.initState();
-    _loadProfileText();
+    loadProfileText();
   }
 
-  Future<void> _loadProfileText() async {
+  Future<void> loadProfileText() async {
     final text = await rootBundle.loadString('assets/userinfodata/daniel_trompetter_text.txt');
     setState(() {
       profileText = text;
