@@ -57,9 +57,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
           onDestinationSelected: (index) {
             navbarindex = index;
             if (index == 0) {
-            Navigator.pushNamed(context, '/');
-            } else if (index == 1) {
-            Navigator.pushNamed(context, '/profile');
+              Navigator.pushNamed(context, '/home');
             }
           },
         selectedIndex: navbarindex,

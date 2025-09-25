@@ -24,7 +24,7 @@ class BigPicture extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(horizontal: 16.0),
                 ),
                 onPressed: () {
-                  Navigator.pushNamed(context, '/');
+                  Navigator.pushNamed(context, '/home');
                 },
               ),
             ),

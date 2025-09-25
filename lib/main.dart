@@ -6,9 +6,9 @@ import 'package:dt_picturegallery/imagesInfo/gallery_data.dart';
 
 void main() {
   runApp(MaterialApp(
-    initialRoute: '/',
+    initialRoute: '/home',
     routes: {
-      '/': (context) => GalleryScreen(pictures: galleryData),
+      '/home': (context) => GalleryScreen(pictures: galleryData),
       '/showpicture': (context) => BigPicture(), 
       '/profile': (context) => ProfileScreen(),
     },
