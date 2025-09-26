@@ -2,8 +2,8 @@ import 'package:dt_picturegallery/widgets/fullsizeimage.dart';
 import 'package:dt_picturegallery/widgets/galleryitem.dart';
 import 'package:flutter/material.dart';
 
-class BigPicture extends StatelessWidget {
-  const BigPicture({super.key});
+class BigPictureScreen extends StatelessWidget {
+  const BigPictureScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

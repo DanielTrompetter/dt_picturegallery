@@ -2,9 +2,9 @@ import 'package:dt_picturegallery/widgets/galleryitem.dart';
 import 'package:dt_picturegallery/widgets/picturebutton.dart';
 import 'package:flutter/material.dart';
 
-class Galleryscreen extends StatelessWidget {
+class GalleryScreen extends StatelessWidget {
   final List<GalleryItem>? pictures; 
-  Galleryscreen({super.key, required this.pictures});
+  GalleryScreen({super.key, required this.pictures});
 
   int navbarindex = 0;
 
