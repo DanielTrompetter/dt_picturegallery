@@ -1,5 +1,5 @@
-import 'package:dt_picturegallery/galleryitem.dart';
-import 'package:dt_picturegallery/picturebutton.dart';
+import 'package:dt_picturegallery/widgets/galleryitem.dart';
+import 'package:dt_picturegallery/widgets/picturebutton.dart';
 import 'package:flutter/material.dart';
 
 class GalleryScreen extends StatelessWidget {

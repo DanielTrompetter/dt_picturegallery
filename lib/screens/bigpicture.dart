@@ -1,5 +1,5 @@
-import 'package:dt_picturegallery/fullsizeimage.dart';
-import 'package:dt_picturegallery/galleryitem.dart';
+import 'package:dt_picturegallery/widgets/fullsizeimage.dart';
+import 'package:dt_picturegallery/widgets/galleryitem.dart';
 import 'package:flutter/material.dart';
 
 class BigPicture extends StatelessWidget {
