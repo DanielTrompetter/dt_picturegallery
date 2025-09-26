@@ -17,7 +17,7 @@ void main() async {
   runApp(MaterialApp(
     initialRoute: '/home',
     routes: {
-      '/home': (context) => GalleryScreen(pictures: galleryData),
+      '/home': (context) => Galleryscreen(pictures: galleryData),
       '/showpicture': (context) => BigPicture(), 
       '/profile': (context) => ProfileScreen(),
     },
