@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-//helper Klasse mitsamt Screen für das zoombare Bild
+//simpler Screen für das vergrößerte Bild
 class FullSizeImageScreen extends StatelessWidget {
   final String imagePath;
   final String imageTitle;

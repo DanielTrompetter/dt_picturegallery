@@ -1,4 +1,4 @@
-import 'package:dt_picturegallery/widgets/fullsizeimage.dart';
+import 'package:dt_picturegallery/screens/fullsizeimage_screen.dart';
 import 'package:dt_picturegallery/widgets/galleryitem.dart';
 import 'package:flutter/material.dart';
 
